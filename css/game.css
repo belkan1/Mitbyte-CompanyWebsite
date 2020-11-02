@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+body{
+    font-family: "Open Sans","Sans serif";
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 400;
+}
+
+body a{
+    transition: color .5s;;
+}
+
+.navbar a:link{
+     color:white;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.black {
+    background-color:black;
+}
+
+header a:visited {
+    color:black;
+}
+
+.navbar a:visited{
+    color:white;
+}
+
+.navbar a:hover {
+    color:#fcb321;
+}
+
+.recentprojects {
+    padding-top:50px;
+    background-color:#f5f5f5;
+    text-align:center;
+}
+
+.recenthead {
+    background-color:#f5f5f5;
+}
+
+.navcustomized {
+    border-bottom:5px solid #fcb321;
+}
+
+.nav-tabs a{
+    background-color:#f5f5f5;
+}
+
+.nav-tabs a{
+    color:black;
+}
+
+.dropdown-menu a:link {
+    color:black;
+}
+
+.dropdown-menu a:visited{
+    color:black;
+}
+
+/*    main code   */
+    
+section{
+    text-align:center;
+
+}
+
+section h1 {
+    font-weight:1000;
+
+}
+
+section p{
+    font-weight: lighter;
+}
+
+.sticky {
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+    
+/* main code end */
+footer a:visited{
+    color:#fcb321;
+}
+
+
+footer h5{
+    border-left:5px solid #fcb321;
+    padding-left:20px;
+    font-weight: bold;
+    color:white;
+}
+
+footer { 
+    background-color:black;
+    color:#fcb321;
+}
+
+ul {
+    list-style-type: none;
+}
+footer a:link {
+    color:#fcb321
+}
+footer a:visited{
+    color:#fcb321;
+}
+
+
+footer a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:active {
+    color:#fcb321;
+}
+
+
+.footerlist {
+    border-bottom: 1px solid #19191a;
+}
