@@ -1,7 +1,7 @@
 $(function () {
 	jQuery("a.gallery").colorbox({
-		maxWidth: "830px",
-		maxHeight: "810px",
+		maxWidth: "100%",
+		maxHeight: "90%",
 	});
 
 	function getLocation() {
@@ -98,6 +98,11 @@ $(function () {
 		filter: ".game"
 	});
   });
+
+//   $('#accordone').click(function(){
+
+// 		$('#collapseOne').toggleClass("show");
+//   });
 	
   // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};

@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="<?php echo base_url();?>css/contactUs.css">
 
         <div class="mycontainer">
-          <img src='<?php echo base_url();?>assets/banner3.jpg' alt="background image" width="100%">
+          <img class="contactimg" src='<?php echo base_url();?>assets/banner3.jpg' alt="background image" width="100%" height="20%">
           <div class="centered"><h1 class="display-4">CONTACT</h1><br><p><strong>HOME / CONTACT</strong></p></div>  
         </div>
       <section>
@@ -37,7 +37,7 @@
           </div>
           
           <iframe class="mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5304.959332165909!2d74.29914567422196!3d31.475053168970103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190351cee261fd%3A0xb3e732cc1cd34e5f!2sMITBYTE!5e0!3m2!1sen!2s!4v1601824690692!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          <h4 class="text-left">We love to hear from you.</h4>
+          <h4 id="contactform" class="text-left">We love to hear from you.</h4>
 
           <?php echo form_open('mitbyte/contactUs'); ?>
             <div class="form-row">

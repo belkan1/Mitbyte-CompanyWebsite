@@ -16,13 +16,15 @@ body a{
     transition: color .5s;;
 }
 
+body a:link{
+    color:black;
+ }
+
 .navbar a:link{
      color:white;
 }
 
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
+
 
 .black {
     background-color:black;
@@ -110,6 +112,7 @@ header a:visited {
     background-color:#fcb321;
     transition: .5s;
 }
+
 .imgdark {
     position: absolute;
     top: -53px;
@@ -159,7 +162,49 @@ footer a:active {
     color:#fcb321;
 }
 
-
 .footerlist {
     border-bottom: 1px solid #19191a;
+}
+
+@media screen and (min-width: 780px) {
+
+    .dropdown:hover>.dropdown-menu {
+   display: block;
+ }
+
+ .port {
+    margin-left:105px;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+    iframe {
+        height:200px;
+    }
+    
+    .deskhead{
+        display:none;
+        
+    }
+
+    header .fa-envelope {
+        margin-left:17px;
+    }
+
+    .social-icons {
+        display:none;
+    }
+
+    .icon{
+        font-size:50px;
+    }
+
+    .dark img {
+        width:150px;
+    }
+
+    .nav-link {
+        font-size:12px;
+    }
 }

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mitbyte, mitbyte.com, free demo, IOS, Android , mitbyte software house ,build CRM, CMS, etc.">
+    <meta name="description" content="Mitbyte is a software company, We are team of professions,we excel in development of ERP,CMS,CRM system. We can also do Mobile Application development.">
     <meta name="keywords" content="Mitbyte, free demo, creative, html ,IOS, Android ,build CRM, CMS">
+    <meta name="robots" content="index,follow">
     <title>Mitbyte-IT Consultancy</title>
  <!-- fontawesome icons -->
  <!-- jQuery library -->
@@ -30,7 +31,7 @@
  <link rel="stylesheet" href="<?php echo base_url();?>css/floating-wpp.min.css">
  <link rel="stylesheet" href="<?php echo base_url();?>css/owl.carousel.min.css">
  <link rel="stylesheet" href="<?php echo base_url();?>css/owl.theme.default.min.css">
- <link rel="stylesheet" href="<?php echo base_url();?><?php if($current == 'home'){echo "css/main.css";} 
+ <link rel="stylesheet" href="<?php echo base_url();?><?php if($current == 'home' || $current == 'error404'){echo "css/main.css";} 
   else if ($current == 'portfolio'){echo "css/portfolio.css";}
   else if ($current == "android"||$current =="ios"||$current =="hybrid"||$current =="cross"||$current =="appstoreoptimization"||$current =="seo"||$current =="game"||$current =="webdevelopment"||$current =="webdesign"||$current =="cybersecurity"){echo "css/android.css";} 
   else if ($current == "privacypolicy"){echo "css/privacypolicy.css";}
@@ -46,18 +47,18 @@
   <header>
   <div class="container-fluid padding">
       <div class="row">
-      <div class="col-sm-12 col-md-11 p-3 pl-5"> 
+      <div class="col-xs-6 col-md-11 p-3 pl-5 mainhead"> 
       <i class="fas fa-phone"></i>  +92-333-4442545/+92-3218888961  <i class="fas fa-envelope"></i>  info@mitbyte.com
-      <i class="fas fa-clock"></i>  Mon - Fri 9:00 - 19:00
+      <span class="deskhead"><i class="fas fa-clock"></i>  Mon - Fri 9:00 - 19:00</span>
       </div>
-      <div class="col-sm-12 col-md-1 p-3">
-           <a href="https://www.facebook.com/MitByte010"><i class="fab fa-facebook-f"></i></a><a  href="https://www.twitter.com"><i class="fab fa-twitter"></i></a> 
-          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i>   </a><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i>
+      <div class="col-xs-6 col-md-1 p-3 social-icons">
+           <a class='mr-2' href="https://www.facebook.com/MitByte010"><i class="fab fa-facebook-f"></i></a><a class="mr-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a> 
+          <a class="mr-2" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i>
       </div>
   </div>
   </div>
 
-    <nav class="black navbar navbar-expand-sm" id = "navbar">
+    <nav class="black navbar navbar-expand-lg" id = "navbar">
 
       
       <div class="container justify-content-around">
@@ -80,7 +81,7 @@
               <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbardrop" data-toggle="dropdown">
                   <b>SERVICES</b>
               </a>
-              <div class="dropdown-menu">;
+              <div class="dropdown-menu">
                 <a class="dropdown-item <?php if($current == 'android'){echo "active";}?>" href="<?php echo site_url("mitbyte/android");?>">ANDROID APP DEVELOPMENT</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item <?php if($current == 'ios'){echo "active";}?>" href="<?php echo site_url("mitbyte/ios");?>">IOS APP DEVELOPMENT</a>

@@ -146,7 +146,7 @@ class Mitbyte extends CI_Controller {
             $this->email->from($email, $name);
             $this->email->to('info@mitbyte.com');
             $this->email->subject($subject);
-            $this->email->message($message."<br>Sender IP Address: ".$ipaddress);
+            $this->email->message($message."\nSender IP Address: ".$ipaddress);
 
             $this->email->send();
             redirect(base_url());
@@ -180,6 +180,13 @@ class Mitbyte extends CI_Controller {
         $data['current'] = 'sitemap';
         $this->load->view('templates/header',$data);
         $this->load->view('sitemap');
+        $this->load->view('templates/footer');
+    }
+
+    public function custom404(){
+        $data['current'] = 'error404';
+        $this->load->view('templates/header',$data);
+        $this->load->view('custom404');
         $this->load->view('templates/footer');
     }
 

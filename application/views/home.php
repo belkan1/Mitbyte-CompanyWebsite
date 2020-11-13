@@ -61,57 +61,74 @@
 
         <!-- landmark project-->
 
-        <div class="pt-5 container">
+        <div class="pt-5 container land">
           <div class="pt-3 row">
             <div class="col-sm-12 col-md-6">
+              
                 <h2><strong>WE DELIVER LANDMARK<br> PROJECTS</strong></h2>
                 <div class="mt-5 row">
                 <div class="col-sm-12 col-md-6">  
-                <div class="row">  
-                <i class="col-md-3 col-sm-12 fas fa-trophy icon"></i>
-                <P class="col-md-9 col-sm-12"><strong>We've reputation for<br>Excellence</strong></p>
-                </div>
-                <div class="mt-3 row">  
-                <i class="col-md-3 col-sm-12 fas fa-thumbs-up icon"></i>
-                <P class="col-md-9 col-sm-12"><strong>Guided by commitment</strong></p>
-                </div>
+                <table class="mt-4">
+                  <tr>
+                <td><i class="fas fa-trophy icon"></i><td>
+                <td><span class=""><strong>We've reputation for<br>Excellence</strong></span><td>
+                </tr>
+                </table>  
+              
+                <table class="mt-5 ">
+                  <tr>    
+                <td><i class="fas fa-thumbs-up icon"></i></td>
+                <td ><span><strong>Guided by commitment</strong></span></td>
+                </tr>
+                </table>
 
               </div>
               <div class="col-sm-12 col-md-6">
                 
-                <div class="row">
-                <i class="col-md-3 col-sm-12 fas fa-sliders-h icon"></i>
-                <p class="col-md-9 col-sm-12"><strong> We Build Partnerships</strong></p>
+                <table class="mt-4">
+                  <tr>
+                <td><i class="fas fa-sliders-h icon"></i></td>
+                <td class=""><p><strong> We Build Partnerships</strong></p></td>
+                </tr>
+                </table>
+
+                <table class="mt-5">
+                  <tr>
+                <td><i class="fas fa-users icon"></i></td>
+                <td><p class="" ><strong>A Team of Professionals</strong></p></td>
+                </tr>
+                </table>
+                
               </div>
-                <div class="mt-4 row">
-                <i class="mt-3 col-md-3 col-sm-12 fas fa-users icon"></i>
-                <P class="mt-3 col-md-9 col-sm-12" ><strong>A Team of Professionals</strong></p>
-                </div>
               </div>
-              </div>
-            </div> 
+            </div>
+            
+         
 
           <div class="col-sm-12 col-md-6">
           
                 <h2><Strong>DOING THE RIGHT THING AT THE RIGHT TIME</Strong></h2>
 
-                <!-- Accordian -->
+                <!-- Accordian --> 
                 <div id="accordion" >
-                    <div class="card mb-3">
+                    <div class="card mb-3" data-toggle="collapse" href="#collapseOne">
                       <div class="card-header d-flex justify-content-between align-items-center">
                         <a class="card-link" data-toggle="collapse" href="#collapseOne">
                           <b>WHY MITBYTE?</b>
-                        </a>
+                      </a>
                         <a class="card-link badge badge-warning text-light px-2" data-toggle="collapse" href="#collapseOne">v</a>
                       </div>
+                    
+                     
                       <div id="collapseOne" class="collapse show" data-parent="#accordion">
                         <div class="card-body">
                             We are a team of technological experts in with full scale experience in Digital Marketing, Web Apps & Mobile Apps Development.
                         </div>
                       </div>
                     </div>
-                  
-                    <div class="card mb-3">
+                    
+                    
+                    <div class="card mb-3" data-toggle="collapse" href="#collapseTwo">
                       <div class="card-header d-flex justify-content-between align-items-center">
                         <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
                           <b>HOW WE WORK</b>
@@ -125,7 +142,7 @@
                       </div>
                     </div>
                   
-                    <div class="card mb-3 ">
+                    <div class="card mb-3" data-toggle="collapse" href="#collapseThree">
                       <div class="card-header d-flex justify-content-between align-items-center">
                         <a class="toggle collapsed card-link" data-toggle="collapse" href="#collapseThree">
                           <b>FREE DEMO</b>
@@ -139,7 +156,7 @@
                       </div>
                     </div>
 
-                    <div class="card mb-3">
+                    <div class="card mb-3" data-toggle="collapse" href="#collapseFour">
                         <div class="card-header  d-flex justify-content-between align-items-center">
                           <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
                             <b>THOUGHT LEADERSHIP</b>
@@ -169,7 +186,7 @@
             <h5 class="text-light"><strong>WE UNDERSTAND YOUR NEEDS! LET US SEE</strong></h5>
             </div>
             <div class="col-md-4 col-sm-6">              
-            <button class="btn btn-dark" type="button" id="demobtn"><strong>REQUEST DEMO</strong></button>
+            <a class="btn btn-dark" type="button" id="demobtn" href="<?php echo site_url("mitbyte/contactUs");?>" ><strong>REQUEST DEMO</strong></a>
           </div>
         </div>
         </div>
@@ -321,17 +338,17 @@
         <div class="container my-5">
             <h4 class="font-weight-bolder mt-5" >HAPPY CLIENTS</h4>
             <div class="row my-5">
-              <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client1.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client2.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client3.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client4.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client6.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client7.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client8.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client9.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-3 m-3" src="<?php echo base_url(); ?>assets/client10.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 m-3" src="<?php echo base_url(); ?>assets/client11.png" alt="c1" width="120px" height="120px">
-            <img class="card col-md-2 col-sm-6 p-4 m-3" src="<?php echo base_url(); ?>assets/client12.png" alt="c1" width="120px" height="120px">
+              <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client1.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client2.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client3.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client4.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client6.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client7.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client8.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client9.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-3 m-3" src="<?php echo base_url(); ?>assets/client10.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 m-3" src="<?php echo base_url(); ?>assets/client11.png" alt="c1" width="120px" height="120px">
+            <img class="card col-md-2 col-sm-5 p-4 m-3" src="<?php echo base_url(); ?>assets/client12.png" alt="c1" width="120px" height="120px">
             </div>
 
         </div>

@@ -1,7 +1,7 @@
 $(function () {
 	jQuery("a.gallery").colorbox({
-		maxWidth: "830px",
-		maxHeight: "810px",
+		maxWidth: "100%",
+		maxHeight: "90%",
 	});
 
 	$(".active").css("color", "#fcb321");

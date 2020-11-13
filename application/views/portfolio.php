@@ -54,6 +54,66 @@
                 
             </div>
     </div>
+
   </div>
+  
+  <div class="container my-5">
+  <h2 class="mb-5"><strong>PORTFOLIOS</strong></h2>
+          <div class="row ml-2 mb-5 port">
+
+            <div id="portfolio1" class="col-md-3 mx-2 mt-2">
+              <img src="<?php echo base_url("assets/web-icon.png")?>" alt="web image" width="150px" height="150px">
+              <br><br>
+              <h5 class="display-5">Web Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/web.pdf");?>" class="btn btn-warning" target="_blank">Download</a>
+          </div>
+
+          <div id="portfolio2" class="col-md-3  mx-2 mt-2">
+              <img src="<?php echo base_url("assets/mob-dev.png")?>" alt="web image" width="150px" height="150px">
+              <br><br>
+              <h5 class="display-5">App Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/mob.pdf");?>" class="btn btn-danger" target="_blank">Download</a>
+          </div>
+
+          <div id="portfolio3" class="col-md-3  mx-2 mt-2">
+              <img src="<?php echo base_url("assets/game-dev.png")?>" alt="web image" width="150px" height="150px">
+              <br><br>
+              <h5 class="display-5">Game Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/game.pdf");?>" class="btn btn-secondary" target="_blank">Download</a>
+          </div>
+
+          </div>
+        </div>
+
+  <style>
+    
+
+    #portfolio1 {
+    border:5px solid #fcb321;
+    padding:20px;
+    border-radius:30px;
+    
+}
+
+    #portfolio2 {
+    border:5px solid crimson;
+    padding:20px;
+    border-radius:30px;
+    }
+
+    #portfolio3 {
+    border:5px solid darkgrey;
+    padding:20px;
+    border-radius:30px;
+    }
+
+    </style>
+
+  <div class="container mt-5">
+          <h2 class="mb-5"><strong>COMPANY PROMOTIONAL VIDEO</strong></h2>
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JGvp8HnnBHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
+        </div>
+
+ 
 
  

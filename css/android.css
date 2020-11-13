@@ -17,13 +17,21 @@ body a{
     transition: color .5s;;
 }
 
+body a:link{
+    color:black;
+ }
+
+.sticky {
+    z-index:1;
+}
+
+.navbar {
+    z-index:1;
+}
+
 .navbar a:link{
      color:white;
 }
-
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
 
 .black {
     background-color:black;
@@ -39,6 +47,10 @@ header a:visited {
 
 .navbar a:hover {
     color:#fcb321;
+}
+
+.owl-carousel {
+    z-index:0;
 }
 
 .recentprojects {
@@ -140,3 +152,33 @@ footer a:active {
     border-bottom: 1px solid #19191a;
 }
 
+@media screen and (min-width: 780px) {
+
+    .dropdown:hover>.dropdown-menu {
+   display: block;
+ }
+
+}
+
+@media screen and (max-width: 480px) {
+    iframe {
+        height:200px;
+    }
+    
+    .deskhead{
+        display:none;
+        
+    }
+
+    header .fa-envelope {
+        margin-left:17px;
+    }
+
+    .social-icons {
+        display:none;
+    }
+
+    .icon{
+        font-size:50px;
+    }
+}

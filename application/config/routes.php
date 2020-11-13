@@ -66,4 +66,5 @@ $route['mitbyte/terms'] = 'mitbyte/terms';
 $route['mitbyte/sitemap'] = 'mitbyte/sitemap';
 $route['mitbyte/ipaddress'] = 'mitbyte/ipaddress';
 $route['mitbyte'] = 'mitbyte';
+$route['404_override'] = 'mitbyte/custom404';
 $route['default_controller'] = 'mitbyte';

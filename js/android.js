@@ -15,6 +15,8 @@ responsive:{
     }
 }
 });
+
+
 $(".active").css("color","#fcb321");
 
 $(".dropdown .active").css("background-color","white");
