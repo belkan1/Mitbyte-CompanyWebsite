@@ -232,7 +232,7 @@
             <div class="col-md-2">  
             <img src="<?php echo base_url(); ?>assets/service-icon10.png" alt="service-icon" width="60px" height="60px">
             </div>
-            <div class="col-md-10 ">
+            <div class="col-md-10">
             <h5>Web Design</h5>
             <p>Our team of experienced web designers includes qualified UX design professionals, visual designers and software engineers with deep expertise in website development services and technologies.</p>
             </div>

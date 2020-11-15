@@ -288,6 +288,7 @@ footer a:active {
 }
 
 @media screen and (min-width: 780px) {
+	
 	.dropdown:hover > .dropdown-menu {
 		display: block;
     }
@@ -296,8 +297,6 @@ footer a:active {
 		margin-top: 2px;
     }
     
-
-
 }
 
 @media screen and (max-width: 780px) {

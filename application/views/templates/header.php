@@ -47,11 +47,11 @@
   <header>
   <div class="container-fluid padding">
       <div class="row">
-      <div class="col-xs-6 col-md-11 p-3 pl-5 mainhead"> 
+      <div class="col-xs-6 col-lg-10 p-3 pl-5 mainhead"> 
       <i class="fas fa-phone"></i>  +92-333-4442545/+92-3218888961  <i class="fas fa-envelope"></i>  info@mitbyte.com
       <span class="deskhead"><i class="fas fa-clock"></i>  Mon - Fri 9:00 - 19:00</span>
       </div>
-      <div class="col-xs-6 col-md-1 p-3 social-icons">
+      <div class="col-xs-6 col-lg-2 p-3 social-icons text-right">
            <a class='mr-2' href="https://www.facebook.com/MitByte010"><i class="fab fa-facebook-f"></i></a><a class="mr-2" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a> 
           <a class="mr-2" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i>
       </div>

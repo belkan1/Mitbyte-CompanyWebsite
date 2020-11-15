@@ -1,7 +1,66 @@
 
   <script src="<?php echo base_url();?>js/portfolio.js"></script>
+  <style>
+    
 
-  
+    #portfolio1 {
+    border:5px solid #fcb321;
+    padding:20px;
+    border-radius:30px;
+    }
+
+    #portfolio2 {
+    border:5px solid crimson;
+    padding:20px;
+    border-radius:30px;
+    }
+
+    #portfolio3 {
+    border:5px solid darkgrey;
+    padding:20px;
+    border-radius:30px;
+    }
+
+    .port img {
+      width:75%;
+      height:58%;
+
+    }
+
+  </style>
+
+  <div class="container my-5">
+  <h2 class="mb-5"><strong>PORTFOLIOS</strong></h2>
+          <div class="row ml-2 mb-5 port">
+
+            <div id="portfolio1" class="col-md-3 mx-2 mt-2 port">
+              <img src="<?php echo base_url("assets/web-icon.png")?>" alt="web image">
+              <br><br>
+              <h5 class="display-5">Web Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/web.pdf");?>" class="btn btn-warning" target="_blank">Download</a>
+          </div>
+
+          <div id="portfolio2" class="col-md-3  mx-2 mt-2 port">
+              <img src="<?php echo base_url("assets/mob-dev.png")?>" alt="web image">
+              <br><br>
+              <h5 class="display-5">App Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/mob.pdf");?>" class="btn btn-danger" target="_blank">Download</a>
+          </div>
+
+          <div id="portfolio3" class="col-md-3  mx-2 mt-2 port">
+              <img src="<?php echo base_url("assets/game-dev.png")?>" alt="web image">
+              <br><br>
+              <h5 class="display-5">Game Development Portfolio</h5>
+              <a href="<?php echo base_url("portfolio/game.pdf");?>" class="btn btn-secondary" target="_blank">Download</a>
+          </div>
+
+          </div>
+        </div>  
+
+        <div class="container mt-5">
+          <h2 class="mb-5"><strong>COMPANY PROMOTIONAL VIDEO</strong></h2>
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JGvp8HnnBHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
+        </div>        
 
 <div class="recenthead">
     <div class=" container recentprojects">
@@ -17,7 +76,7 @@
                 <li><a id="btn6" class="nav-link black">GAME DEVELOPMENT</a></li>
             </ul>
 
-            <div class="pb-5 iso">
+            <div class="pb-5 iso pl-5 ">
               <div class = "iso-item app p-2">
                 <a class="gallery" href="<?php echo base_url(); ?>assets/project1.jpg"><img id="p1" class="py-2 projectimg" src="<?php echo base_url();?>assets/project1.jpg" alt="p1" width="175px" height="160px"><div class="imgdark"></div><div class="top-right px-2"><i class="fas fa-plus"></i></div></a>
               </div>
@@ -57,63 +116,4 @@
 
   </div>
   
-  <div class="container my-5">
-  <h2 class="mb-5"><strong>PORTFOLIOS</strong></h2>
-          <div class="row ml-2 mb-5 port">
-
-            <div id="portfolio1" class="col-md-3 mx-2 mt-2">
-              <img src="<?php echo base_url("assets/web-icon.png")?>" alt="web image" width="150px" height="150px">
-              <br><br>
-              <h5 class="display-5">Web Development Portfolio</h5>
-              <a href="<?php echo base_url("portfolio/web.pdf");?>" class="btn btn-warning" target="_blank">Download</a>
-          </div>
-
-          <div id="portfolio2" class="col-md-3  mx-2 mt-2">
-              <img src="<?php echo base_url("assets/mob-dev.png")?>" alt="web image" width="150px" height="150px">
-              <br><br>
-              <h5 class="display-5">App Development Portfolio</h5>
-              <a href="<?php echo base_url("portfolio/mob.pdf");?>" class="btn btn-danger" target="_blank">Download</a>
-          </div>
-
-          <div id="portfolio3" class="col-md-3  mx-2 mt-2">
-              <img src="<?php echo base_url("assets/game-dev.png")?>" alt="web image" width="150px" height="150px">
-              <br><br>
-              <h5 class="display-5">Game Development Portfolio</h5>
-              <a href="<?php echo base_url("portfolio/game.pdf");?>" class="btn btn-secondary" target="_blank">Download</a>
-          </div>
-
-          </div>
-        </div>
-
-  <style>
-    
-
-    #portfolio1 {
-    border:5px solid #fcb321;
-    padding:20px;
-    border-radius:30px;
-    
-}
-
-    #portfolio2 {
-    border:5px solid crimson;
-    padding:20px;
-    border-radius:30px;
-    }
-
-    #portfolio3 {
-    border:5px solid darkgrey;
-    padding:20px;
-    border-radius:30px;
-    }
-
-    </style>
-
-  <div class="container mt-5">
-          <h2 class="mb-5"><strong>COMPANY PROMOTIONAL VIDEO</strong></h2>
-          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JGvp8HnnBHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>.
-        </div>
-
- 
-
- 
+  
